@@ -9,7 +9,7 @@ for word in [first_word,second_word,third_word]:
         wanted_index = len(word) // 2
         output_str += word[wanted_index]
     else:
-        output_str += word[1]
+        output_str += word[len(word)//2]
 
 print(output_str)
 

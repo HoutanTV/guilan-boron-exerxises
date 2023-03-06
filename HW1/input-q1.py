@@ -1,5 +1,7 @@
 our_number = int(input("please enter your number: "))
-## or our_number = int(our_number)
+print(type(our_number))
+print(type(str(our_number)))
+## or our_number = int(our_number) and for
 
 reversed_number = 0
 digit_counts = 0
